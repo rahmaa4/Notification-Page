@@ -1,0 +1,78 @@
+{
+    "notifications" : [
+        {
+            "userId": 1,
+            "name": "Anna Kim",
+            "profileImage":"/assets/images/avatar-anna-kim.webp",
+            "action": "left the group",
+            "feature": "Chess Club",
+            "TimeSince": "2 weeks ago",
+             "isRead": true
+        },
+
+        {
+            "userId": 2,
+            "name": "Nathan Peterson",
+            "profileImage": "/assets/images/avatar-nathan-peterson.webp",
+            "action": "reacted to your recent post",
+            "feature": "5 end-game strategies to increase your win rate",
+            "TimeSince": "2 weeks ago",
+            "isRead": true
+        },
+
+
+        {
+            "userId": 3,
+            "name": "Kimberly Smith",
+            "profileImage":"/assets/images/avatar-kimberly-smith.webp",
+            "action": "commented on",
+            "feature": "your recent picture",
+            "TimeSince": "1 week ago",
+            "imagePost": "/assets/images/image-chess.webp",
+            "isRead": true
+            
+        },
+
+
+        {
+            "userId": 4,
+            "name": "Rizky Hasanuddin",
+            "profileImage":"/assets/images/avatar-rizky-hasanuddin.webp",
+            "action": "sent you a private message",
+            "feature": "Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.",
+            "TimeSince": "5 days ago",
+            "isRead": true
+        },
+
+
+        {
+            "userId": 5,
+            "name": "Jacob Thompson",
+            "profileImage":"/assets/images/avatar-jacob-thompson.webp",
+            "action": "has joined your group",
+            "feature": "Chess Club",
+            "TimeSince": "1 day ago",
+            "isRead": false
+        },
+
+        {
+            "userId": 6,
+            "name": "Angela Gray",
+            "profileImage":"/assets/images/avatar-angela-gray.webp",
+            "action": "followed you",
+            "feature": null,
+            "TimeSince": "5m ago",
+            "isRead": false
+        },
+
+        {
+            "userId": 7,
+            "name": "Mark Webber",
+            "profileImage":"/assets/images/avatar-mark-webber.webp",
+            "action": "reacted to your recent post",
+            "feature": "My first tournament today!",
+            "TimeSince": "1m ago",
+            "isRead": false
+        }
+    ]
+}

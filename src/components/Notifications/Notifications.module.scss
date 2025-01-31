@@ -1,0 +1,184 @@
+@use "../../styles/partials/variables" as *;
+
+//mobile-first
+.wrapper{
+    width: 100vw;
+    min-height: 100vh ;
+    background-color: $white;
+    border-radius: 15px; 
+    padding: 18px 12px;
+}
+
+.bannerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.titleWrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.title{
+    font-weight: $fw-800;
+    font-size: $fs6;
+    color: $very-dark-grey-blue;
+}
+.countWrapper{
+    width: 32px;
+    height: 32px;
+    background-color: $blue;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .count{
+        font-weight: $fw-800;
+        color: $white;
+    }
+}
+
+button{
+font-size: $fs-small;
+}
+
+.notificationsWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-top: 31px;
+}
+
+.notificationWrapper{
+    min-height: 80px;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.notificationCont{
+    display: flex;
+    column-gap: 16px;
+}
+
+img[alt="profile Image"]{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 1px solid hsla(0, 0%, 0%, 4.64%);
+}
+.notificationData{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.notifFlexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationText{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px ;
+    & *{  
+        word-spacing: 1px;  
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 6px;
+        .username{
+            font-weight: $fw-800;
+            color: $very-dark-grey-blue;
+            font-size: $fs-small;
+            &:hover{
+                cursor: pointer;
+                color: $blue;
+            }
+        }
+        .action{
+            font-size: $fs-small;
+        }
+        .feature{
+            font-size: $fs-small;
+            font-weight: $fw-700;
+            &:hover{
+                color: $blue;
+            }
+        }
+        .redCircle{
+            width: 6px;
+            height: 6px;
+            position: relative;
+            top: 2px;
+            border-radius: 100%;
+            background-color: $red;
+        }
+    }
+    .timeSince{
+        font-size: $fs-x-small;
+        color: $med-grey-blue;
+        word-spacing: 1px;
+    }
+}
+
+.ntImgWrapper{
+    img{
+        width:45px;
+        height:45px;
+        border-radius: 7px;
+    }
+}
+
+.message{
+    font-size: $fs-small;
+    font-weight: $fw-400;
+    word-spacing: 1px; 
+    margin-top: 12px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid $light-grey-blue-one;
+    &:hover{
+        background-color: $light-grey-blue-one;
+    }
+}
+        
+.isNotRead{
+    background-color: $light-grey-blue-one;
+}
+
+.isAllRead{
+    background-color: $white;
+}
+
+
+@media only screen and (min-width: 585px){
+    .wrapper{
+        width: 90vw;
+        min-height: 50vh;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .wrapper{
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .wrapper{
+        width: 42vw;
+    }
+}
+
+
+
+
+
+
+

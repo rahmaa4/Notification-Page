@@ -24,7 +24,34 @@
     border: none;
 }
 
+html, #root{
+    min-height: 100vh;
+}
 
+#root{
+    background-color: $light-grey;
+}
+
+
+@media only screen and (min-width: 585px){
+    #root{
+        padding: 45px 0px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    #root{
+        display: flex;
+        align-items: center;
+    }
+}
+
+button:hover{
+    cursor: pointer;
+    color: $blue;
+}
 
 
 

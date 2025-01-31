@@ -6,7 +6,8 @@
             "profileImage":"/assets/images/avatar-anna-kim.webp",
             "action": "left the group",
             "feature": "Chess Club",
-            "TimeSince": "2 weeks ago",
+            "timeSince": "2 weeks ago",
+            "imagePost": null,
              "isRead": true
         },
 
@@ -16,7 +17,8 @@
             "profileImage": "/assets/images/avatar-nathan-peterson.webp",
             "action": "reacted to your recent post",
             "feature": "5 end-game strategies to increase your win rate",
-            "TimeSince": "2 weeks ago",
+            "timeSince": "2 weeks ago",
+            "imagePost": null,
             "isRead": true
         },
 
@@ -25,9 +27,9 @@
             "userId": 3,
             "name": "Kimberly Smith",
             "profileImage":"/assets/images/avatar-kimberly-smith.webp",
-            "action": "commented on",
-            "feature": "your recent picture",
-            "TimeSince": "1 week ago",
+            "action": "commented on your recent picture",
+            "feature": null,
+            "timeSince": "1 week ago",
             "imagePost": "/assets/images/image-chess.webp",
             "isRead": true
             
@@ -40,7 +42,8 @@
             "profileImage":"/assets/images/avatar-rizky-hasanuddin.webp",
             "action": "sent you a private message",
             "feature": "Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.",
-            "TimeSince": "5 days ago",
+            "timeSince": "5 days ago",
+            "imagePost": null,
             "isRead": true
         },
 
@@ -51,7 +54,8 @@
             "profileImage":"/assets/images/avatar-jacob-thompson.webp",
             "action": "has joined your group",
             "feature": "Chess Club",
-            "TimeSince": "1 day ago",
+            "timeSince": "1 day ago",
+            "imagePost": null,
             "isRead": false
         },
 
@@ -61,7 +65,8 @@
             "profileImage":"/assets/images/avatar-angela-gray.webp",
             "action": "followed you",
             "feature": null,
-            "TimeSince": "5m ago",
+            "timeSince": "5m ago",
+            "imagePost": null,
             "isRead": false
         },
 
@@ -71,7 +76,8 @@
             "profileImage":"/assets/images/avatar-mark-webber.webp",
             "action": "reacted to your recent post",
             "feature": "My first tournament today!",
-            "TimeSince": "1m ago",
+            "timeSince": "1m ago",
+            "imagePost": null,
             "isRead": false
         }
     ]

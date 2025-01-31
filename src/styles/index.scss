@@ -28,14 +28,11 @@ html, #root{
     min-height: 100vh;
 }
 
-#root{
-    background-color: $light-grey;
-}
 
-
-@media only screen and (min-width: 585px){
+@media only screen and (min-width: 768px){
     #root{
         padding: 45px 0px;
+        background-color: $light-grey;
     }
 }
 

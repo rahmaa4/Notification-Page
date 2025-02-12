@@ -49,7 +49,7 @@ export default function Notification({
                                 <a className={styles.username} href="">{username}</a>
                                 <span className={styles.action}>{action}</span>
                                 {feature && action.includes("sent you a private message") ?  null : <a className={styles.feature} href="">{feature}</a> }
-                                {!isRead && <div className={styles.redCircle}></div>}
+                                {!isRead || !isAllRead && <div className={styles.redCircle}></div>}
                             </div>
                             <p className={styles.timeSince}>{timeSince && timeSince}</p>
                         </div>

@@ -24,6 +24,8 @@ export default function Notification({
 }: NotificationProp)
 {
 
+    const redCircle = <div className={styles.redCircle}></div>;
+
     useEffect(() => {
         const actions = Array.from(document.getElementsByClassName(`${styles.action}`)) as HTMLElement[];
         if (actions) {
@@ -49,7 +51,7 @@ export default function Notification({
                                 <a className={styles.username} href="">{username}</a>
                                 <span className={styles.action}>{action}</span>
                                 {feature && action.includes("sent you a private message") ?  null : <a className={styles.feature} href="">{feature}</a> }
-                                {!isRead || !isAllRead && <div className={styles.redCircle}></div>}
+                                {!isAllRead && !isRead ? redCircle : null}
                             </div>
                             <p className={styles.timeSince}>{timeSince && timeSince}</p>
                         </div>
